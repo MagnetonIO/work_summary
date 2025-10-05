@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Long - Technology Leader | Portfolio 2024-2025</title>
+    <meta name="description" content="Full-Stack Technology Leader, Cloud Architect, and Innovation Catalyst with 20+ years driving digital transformation">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #0066ff;
+            --secondary: #00d4ff;
+            --dark: #0a0e27;
+            --light: #ffffff;
+            --gray: #94a3b8;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --gradient: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--dark);
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') no-repeat;
+            background-size: cover;
+            animation: wave 20s linear infinite;
+        }
+
+        @keyframes wave {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        .hero-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            position: relative;
+            z-index: 1;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            animation: fadeInUp 0.8s ease;
+        }
+
+        .hero .subtitle {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+            animation: fadeInUp 0.8s ease 0.2s both;
+        }
+
+        .hero-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+            animation: fadeInUp 0.8s ease 0.4s both;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+            animation: fadeInUp 0.8s ease 0.6s both;
+        }
+
+        .btn {
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background: white;
+            color: var(--primary);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .section-subtitle {
+            font-size: 1.2rem;
+            color: var(--gray);
+            margin-bottom: 3rem;
+        }
+
+        /* Recent Projects Grid */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+        }
+
+        .project-header {
+            padding: 2rem;
+            background: var(--gradient);
+            color: white;
+        }
+
+        .project-type {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .project-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-body {
+            padding: 2rem;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 1rem 0;
+        }
+
+        .tech-tag {
+            padding: 0.3rem 0.8rem;
+            background: #f0f4ff;
+            color: var(--primary);
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .project-stats {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #e5e7eb;
+        }
+
+        .project-stat {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--gray);
+            font-size: 0.9rem;
+        }
+
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding: 2rem 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--gradient);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin: 2rem 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .timeline-item:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+
+        .timeline-content {
+            width: 45%;
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            background: var(--primary);
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 0 0 4px rgba(0, 102, 255, 0.2);
+        }
+
+        /* Skills Section */
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-category {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .skill-category h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary);
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+        }
+
+        .skill-item {
+            padding: 0.5rem 1rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /* GitHub Pages Sites */
+        .github-sites {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .site-card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+        }
+
+        .site-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .site-header {
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .site-body {
+            padding: 1.5rem;
+        }
+
+        .site-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 5rem 2rem;
+            border-radius: 30px;
+            margin: 5rem auto;
+            max-width: 1200px;
+        }
+
+        .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .contact-link {
+            color: white;
+            font-size: 1.5rem;
+            transition: transform 0.3s;
+        }
+
+        .contact-link:hover {
+            transform: scale(1.2);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .hero .subtitle { font-size: 1rem; }
+            .nav-links { display: none; }
+            .timeline::before { left: 30px; }
+            .timeline-item { flex-direction: column !important; }
+            .timeline-content { width: calc(100% - 60px); margin-left: 60px; }
+            .timeline-dot { left: 30px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">ML</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Matthew Long</h1>
+            <p class="subtitle">Full-Stack Technology Leader | Cloud Architect | Innovation Catalyst</p>
+            <div style="margin: 1rem 0; font-size: 1.1rem; opacity: 0.95;">
+                <strong>Focus Areas:</strong> Software Engineering • DevOps • AI • Physics • Mathematics • Computer Science
+            </div>
+            <div style="margin: 1rem 0; font-size: 0.95rem; font-style: italic; opacity: 0.9;">
+                Honorary Virtual PhD in Theoretical Physics • Applied Mathematics • Computer Science
+            </div>
+            
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">100+</span>
+                    <span class="stat-label">Projects Delivered</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">$300M</span>
+                    <span class="stat-label">Exit Value</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">500+</span>
+                    <span class="stat-label">Commits This Year</span>
+                </div>
+            </div>
+
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-envelope"></i> Get In Touch
+                </a>
+                <a href="https://linkedin.com/in/mlabs1913" class="btn btn-secondary" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn Profile
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Expertise Section -->
+    <section class="section" id="expertise" style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);">
+        <h2 class="section-title">Core Expertise Areas</h2>
+        <p class="section-subtitle">Deep specialization across six critical domains</p>
+
+        <div class="projects-grid">
+            <!-- Software Engineering -->
+            <div class="project-card">
+                <div class="project-header" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                    <h3 class="project-title"><i class="fas fa-code"></i> Software Engineering</h3>
+                </div>
+                <div class="project-body">
+                    <p><strong>68 Active Repositories</strong> with 500+ commits this year</p>
+                    <ul style="list-style: none; padding: 1rem 0;">
+                        <li>✓ Full-stack development (React, Next.js, Node.js)</li>
+                        <li>✓ Microservices architecture at scale</li>
+                        <li>✓ Enterprise Java/Spring Boot systems</li>
+                        <li>✓ Modern TypeScript applications</li>
+                        <li>✓ API design and implementation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- DevOps -->
+            <div class="project-card">
+                <div class="project-header" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                    <h3 class="project-title"><i class="fas fa-server"></i> DevOps</h3>
+                </div>
+                <div class="project-body">
+                    <p><strong>Multi-cloud expertise</strong> across AWS, GCP, and Azure</p>
+                    <ul style="list-style: none; padding: 1rem 0;">
+                        <li>✓ Kubernetes orchestration (EKS, GKE, AKS)</li>
+                        <li>✓ Infrastructure as Code (Terraform, CDK)</li>
+                        <li>✓ CI/CD pipeline optimization</li>
+                        <li>✓ GitOps and ArgoCD workflows</li>
+                        <li>✓ 99.99% uptime achievement</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- AI -->
+            <div class="project-card">
+                <div class="project-header" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                    <h3 class="project-title"><i class="fas fa-robot"></i> Artificial Intelligence</h3>
+                </div>
+                <div class="project-body">
+                    <p><strong>20+ AI research papers</strong> and production implementations</p>
+                    <ul style="list-style: none; padding: 1rem 0;">
+                        <li>✓ LLM integration (OpenAI, Anthropic)</li>
+                        <li>✓ RAG pipeline architecture</li>
+                        <li>✓ TensorFlow & PyTorch models</li>
+                        <li>✓ Automated paper generation</li>
+                        <li>✓ ML-powered predictive analytics</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Physics -->
+            <div class="project-card">
+                <div class="project-header" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                    <h3 class="project-title"><i class="fas fa-atom"></i> Physics</h3>
+                </div>
+                <div class="project-body">
+                    <p><strong>Functorial Physics Framework</strong> creator</p>
+                    <ul style="list-style: none; padding: 1rem 0;">
+                        <li>✓ Quantum gravity unification theory</li>
+                        <li>✓ Emergent spacetime (E = Ic²)</li>
+                        <li>✓ 4D without extra dimensions</li>
+                        <li>✓ Experimentally testable predictions</li>
+                        <li>✓ 5 GitHub Pages research sites</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Mathematics -->
+            <div class="project-card">
+                <div class="project-header" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                    <h3 class="project-title"><i class="fas fa-calculator"></i> Mathematics</h3>
+                </div>
+                <div class="project-body">
+                    <p><strong>Category Theory</strong> applications to computing</p>
+                    <ul style="list-style: none; padding: 1rem 0;">
+                        <li>✓ Universal Category Theory (UCAT)</li>
+                        <li>✓ Geometric Langlands research</li>
+                        <li>✓ Topology and derived functors</li>
+                        <li>✓ Haskell proof-as-code</li>
+                        <li>✓ Mathematical foundations</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Computer Science -->
+            <div class="project-card">
+                <div class="project-header" style="background: linear-gradient(135deg, #ff0844 0%, #ffb199 100%);">
+                    <h3 class="project-title"><i class="fas fa-microchip"></i> Computer Science</h3>
+                </div>
+                <div class="project-body">
+                    <p><strong>Patent holder</strong> in distributed systems</p>
+                    <ul style="list-style: none; padding: 1rem 0;">
+                        <li>✓ Quantum computing algorithms</li>
+                        <li>✓ Distributed consensus design</li>
+                        <li>✓ Cryptographic implementations</li>
+                        <li>✓ Fault-tolerant architectures</li>
+                        <li>✓ High-performance computing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Projects Section -->
+    <section class="section" id="projects">
+        <h2 class="section-title">Recent Projects (2024-2025)</h2>
+        <p class="section-subtitle">Innovative solutions across research, enterprise, and open source</p>
+
+        <div class="projects-grid">
+            <!-- Functorial Physics -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-type">Research</span>
+                    <h3 class="project-title">Functorial Physics Framework</h3>
+                </div>
+                <div class="project-body">
+                    <p>Novel approach to quantum gravity using category theory as mathematical foundation. No extra dimensions needed.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Category Theory</span>
+                        <span class="tech-tag">LaTeX</span>
+                        <span class="tech-tag">GitHub Pages</span>
+                        <span class="tech-tag">Quantum Physics</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="project-stat">
+                            <i class="fas fa-code-branch"></i> 59 commits
+                        </div>
+                        <div class="project-stat">
+                            <i class="fas fa-globe"></i> Published Site
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Chatbot Platform -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-type">Full-Stack</span>
+                    <h3 class="project-title">AI Chatbot Platform</h3>
+                </div>
+                <div class="project-body">
+                    <p>Advanced AI chatbot with research paper generation, database integration, and authentication.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Next.js 15</span>
+                        <span class="tech-tag">React 19</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Vercel AI SDK</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="project-stat">
+                            <i class="fas fa-robot"></i> AI-Powered
+                        </div>
+                        <div class="project-stat">
+                            <i class="fas fa-database"></i> Real-time DB
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Shipment Tracking Service -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-type">Enterprise</span>
+                    <h3 class="project-title">Shipment Tracking Service</h3>
+                </div>
+                <div class="project-body">
+                    <p>Real-time shipment tracking microservice with Google Pub/Sub integration and alert management.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Google Cloud</span>
+                        <span class="tech-tag">Microservices</span>
+                        <span class="tech-tag">Cypress</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="project-stat">
+                            <i class="fas fa-code-branch"></i> 85 commits
+                        </div>
+                        <div class="project-stat">
+                            <i class="fas fa-shipping-fast"></i> Production
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- AI Theory Research -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-type">Research</span>
+                    <h3 class="project-title">AI Theory Repository</h3>
+                </div>
+                <div class="project-body">
+                    <p>Collection of groundbreaking research papers on AI theoretical foundations with Jekyll-powered site.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Jekyll</span>
+                        <span class="tech-tag">GitHub Pages</span>
+                        <span class="tech-tag">LaTeX</span>
+                        <span class="tech-tag">SEO</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="project-stat">
+                            <i class="fas fa-code-branch"></i> 58 commits
+                        </div>
+                        <div class="project-stat">
+                            <i class="fas fa-book"></i> 20+ Papers
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Design Gem Studio -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-type">Full-Stack</span>
+                    <h3 class="project-title">Design Gem Studio</h3>
+                </div>
+                <div class="project-body">
+                    <p>Advanced design studio for jewelry and 3D modeling with DXF processing and Shopify integration.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Three.js</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Supabase</span>
+                        <span class="tech-tag">Vite</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="project-stat">
+                            <i class="fas fa-cube"></i> 3D Rendering
+                        </div>
+                        <div class="project-stat">
+                            <i class="fas fa-mobile"></i> Cross-platform
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pop Secret IVR -->
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-type">Full-Stack</span>
+                    <h3 class="project-title">Pop Secret IVR System</h3>
+                </div>
+                <div class="project-body">
+                    <p>Interactive Voice Response system for Pop Secret Buttery Secrets Hotline with Twilio integration.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Twilio</span>
+                        <span class="tech-tag">AWS S3</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">Vercel</span>
+                    </div>
+                    <div class="project-stats">
+                        <div class="project-stat">
+                            <i class="fas fa-phone"></i> Voice AI
+                        </div>
+                        <div class="project-stat">
+                            <i class="fas fa-cloud"></i> Serverless
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Pages Sites -->
+    <section class="section" id="research">
+        <h2 class="section-title">Published Research Sites</h2>
+        <p class="section-subtitle">Active GitHub Pages deployments showcasing research work</p>
+
+        <div class="github-sites">
+            <div class="site-card">
+                <div class="site-header">
+                    <h3><i class="fas fa-atom"></i> Functorial Physics</h3>
+                </div>
+                <div class="site-body">
+                    <p>Category theory approach to quantum gravity unification with interactive comparison tables.</p>
+                    <a href="#" class="site-link">
+                        View Site <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="site-card">
+                <div class="site-header">
+                    <h3><i class="fas fa-brain"></i> AI Theory Research</h3>
+                </div>
+                <div class="site-body">
+                    <p>Jekyll-powered repository of AI theoretical foundations papers with SEO optimization.</p>
+                    <a href="#" class="site-link">
+                        View Site <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="site-card">
+                <div class="site-header">
+                    <h3><i class="fas fa-rocket"></i> Emergent Spacetime</h3>
+                </div>
+                <div class="site-body">
+                    <p>Information conversion laws and spacetime emergence theory with E = Ic² framework.</p>
+                    <a href="#" class="site-link">
+                        View Site <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="site-card">
+                <div class="site-header">
+                    <h3><i class="fas fa-infinity"></i> Quantum Unification</h3>
+                </div>
+                <div class="site-body">
+                    <p>Functorial unification approach to quantum mechanics with Jekyll-powered documentation.</p>
+                    <a href="#" class="site-link">
+                        View Site <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="site-card">
+                <div class="site-header">
+                    <h3><i class="fas fa-calculator"></i> Modular Physics</h3>
+                </div>
+                <div class="site-body">
+                    <p>Modular approach to physics computations with Haskell implementations and mobile optimization.</p>
+                    <a href="#" class="site-link">
+                        View Site <i class="fas fa-external-link-alt"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Accomplishments Timeline -->
+    <section class="section" id="experience">
+        <h2 class="section-title">2024-2025 Highlights</h2>
+        <p class="section-subtitle">Major accomplishments from the past year</p>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>October 2025</h3>
+                    <h4>Emergent Spacetime Theory Launch</h4>
+                    <p>Published comprehensive research on information conversion laws with 66 commits to the repository.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>September 2025</h3>
+                    <h4>Enterprise Microservices</h4>
+                    <p>Delivered shipment tracking service with 85 commits, handling real-time tracking for major e-commerce platform.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>August 2025</h3>
+                    <h4>AI Preprint Forge</h4>
+                    <p>Launched automated research paper generation framework with LaTeX processing and OpenAI integration.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>July 2025</h3>
+                    <h4>Functorial Physics Framework</h4>
+                    <p>Published groundbreaking research on quantum gravity using category theory, deployed to GitHub Pages.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>May 2025</h3>
+                    <h4>Governance Theory Research</h4>
+                    <p>Completed comprehensive analysis of democratic platforms and institutional dynamics.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>November 2024</h3>
+                    <h4>Unified Mathematics Foundations</h4>
+                    <p>Initiated research on zero and infinity as fundamental mathematical concepts.</p>
+                </div>
+                <div class="timeline-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <h2 class="section-title">Technical Expertise</h2>
+        <p class="section-subtitle">Comprehensive skill set across modern technology stack</p>
+
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Languages & Frameworks</h3>
+                <div class="skill-list">
+                    <span class="skill-item">Python</span>
+                    <span class="skill-item">TypeScript</span>
+                    <span class="skill-item">JavaScript</span>
+                    <span class="skill-item">Go</span>
+                    <span class="skill-item">Java</span>
+                    <span class="skill-item">React</span>
+                    <span class="skill-item">Next.js</span>
+                    <span class="skill-item">Node.js</span>
+                    <span class="skill-item">Spring Boot</span>
+                    <span class="skill-item">FastAPI</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                <div class="skill-list">
+                    <span class="skill-item">AWS</span>
+                    <span class="skill-item">Google Cloud</span>
+                    <span class="skill-item">Azure</span>
+                    <span class="skill-item">Kubernetes</span>
+                    <span class="skill-item">Docker</span>
+                    <span class="skill-item">Terraform</span>
+                    <span class="skill-item">CI/CD</span>
+                    <span class="skill-item">GitHub Actions</span>
+                    <span class="skill-item">Serverless</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-database"></i> Data & AI</h3>
+                <div class="skill-list">
+                    <span class="skill-item">PostgreSQL</span>
+                    <span class="skill-item">MongoDB</span>
+                    <span class="skill-item">Redis</span>
+                    <span class="skill-item">Kafka</span>
+                    <span class="skill-item">TensorFlow</span>
+                    <span class="skill-item">PyTorch</span>
+                    <span class="skill-item">BigQuery</span>
+                    <span class="skill-item">Spark</span>
+                    <span class="skill-item">ML/AI</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <h3><i class="fas fa-flask"></i> Research & Theory</h3>
+                <div class="skill-list">
+                    <span class="skill-item">Category Theory</span>
+                    <span class="skill-item">Quantum Computing</span>
+                    <span class="skill-item">LaTeX</span>
+                    <span class="skill-item">Haskell</span>
+                    <span class="skill-item">Mathematical Physics</span>
+                    <span class="skill-item">Cryptography</span>
+                    <span class="skill-item">Information Theory</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Let's Build Something Amazing Together</h2>
+        <p>Ready to transform your technology landscape and drive innovation?</p>
+        
+        <div class="cta-buttons">
+            <a href="mailto:mlong@magneton.io" class="btn btn-primary">
+                <i class="fas fa-envelope"></i> mlong@magneton.io
+            </a>
+        </div>
+
+        <div class="contact-links">
+            <a href="https://linkedin.com/in/mlabs1913" target="_blank" class="contact-link">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/magnetonio" target="_blank" class="contact-link">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:mlong@magneton.io" class="contact-link">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </section>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animation = 'fadeInUp 0.6s ease forwards';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.project-card, .timeline-item, .skill-category, .site-card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
