@@ -1,4 +1,4 @@
-# Matthew Long - Comprehensive Project Portfolio 2024-2025
+# Matthew Long - Comprehensive Project Portfolio
 
 ## Executive Summary
 **500+ commits** across **68 active repositories** demonstrating expertise in:
