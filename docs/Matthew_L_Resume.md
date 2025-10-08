@@ -10,15 +10,18 @@ Hands-on Senior Software Engineer with 20+ years building mission-critical syste
 
 ## **Key Achievements**
 
-* **$300M Exit** \- Core contributor at Evident.io (acquired by Palo Alto Networks)  
-* **$70K Annual Savings** \- Optimized AWS infrastructure reducing operational costs  
-* **100+ Successful Engagements** \- Delivered high-value solutions across Finance, Healthcare, Energy, and Government sectors  
-* **Patent Holder** \- Invented a secure distributed messaging architecture  
-* **DARPA Recognition** \- Distinguished technology innovator and leadership alliance member  
-* **500+ Commits (2024-2025)** \- Active development across 68 repositories  
-* **Zoro E-commerce Platform** \- Built microservices handling millions of transactions daily (2025)  
-* **TSI Infrastructure** \- Architected AWS cloud solutions with React/Laravel stack (2024-2025)  
-* **Pop Secret IVR System** \- Developed a Twilio-powered voice AI system for a national campaign (2025)
+* **$300M Exit** - Core contributor at Evident.io (acquired by Palo Alto Networks)
+* **$70K Annual Savings** - Optimized AWS infrastructure reducing operational costs
+* **100+ Successful Engagements** - Delivered high-value solutions across Finance, Healthcare, Energy, and Government sectors
+* **Patent Holder** - Invented a secure distributed messaging architecture
+* **DARPA Recognition** - Distinguished technology innovator and leadership alliance member
+* **500+ Commits (2024-2025)** - Active development across 68 repositories
+* **Zoro E-commerce Platform** - Built microservices handling millions of transactions daily (2025)
+* **TSI Infrastructure** - Architected AWS cloud solutions with React/Laravel stack (2024-2025)
+* **Pop Secret IVR System** - Developed a Twilio-powered voice AI system for a national campaign (2025)
+* **Cogability Platform** - Built intelligent document processing with Vision LLMs (2023-2025)
+* **PredictiveHR SaaS** - Created workforce analytics platform with AWS CDK (2021-2023)
+* **BetaCom 5G Platform** - Architected real-time network monitoring dashboard (2020-2021)
 
 # **Core Competencies**
 
@@ -53,8 +56,8 @@ Hands-on Senior Software Engineer with 20+ years building mission-critical syste
 
 # **Education & Professional Development**
 
-* **M.S. & B.S. Computer Science** \- University of Colorado  
-* **Certifications:** Red Hat Certified, Microsoft Certified Professional  
+* **M.S. & B.S. Computer Science** - University of Colorado
+* **Certifications:** Red Hat Certified, Microsoft Certified Professional
 * **Continuous Learning:** Advanced studies in Quantum Computing, AI/ML, Cryptography, and Applied Mathematics
 
 # **Recent & Featured Engagements**
@@ -65,10 +68,10 @@ Hands-on Senior Software Engineer with 20+ years building mission-critical syste
 
 **Impact:** Built critical e-commerce microservices processing millions of daily transactions
 
-* Developed shipment tracking service with 85 commits handling real-time package updates  
-* Built return service managing complex partial shipment logic (52 commits)  
-* Implemented FedEx webhook integration with Datadog monitoring (67 commits)  
-* Created order management APIs supporting high-volume retail operations  
+* Developed shipment tracking service with 85 commits handling real-time package updates
+* Built return service managing complex partial shipment logic (52 commits)
+* Implemented FedEx webhook integration with Datadog monitoring (67 commits)
+* Created order management APIs supporting high-volume retail operations
 * **Tech Stack:** Node.js, Java/Spring Boot, Python, Google Cloud, Microservices
 
 **TSI (2024-2025)**
@@ -77,10 +80,10 @@ Hands-on Senior Software Engineer with 20+ years building mission-critical syste
 
 **Impact:** Architected cloud infrastructure and full-stack applications
 
-* Designed AWS infrastructure with React/Laravel application stack  
-* Implemented Kubernetes orchestration for scalable deployments  
-* Built responsive frontend components with modern React patterns  
-* Optimized database queries improving response times by 40%  
+* Designed AWS infrastructure with React/Laravel application stack
+* Implemented Kubernetes orchestration for scalable deployments
+* Built responsive frontend components with modern React patterns
+* Optimized database queries improving response times by 40%
 * **Tech Stack:** AWS, React.js, PHP Laravel, Kubernetes, PostgreSQL
 
 **Pop Secret/PopCorners (2025)**
@@ -89,11 +92,24 @@ Hands-on Senior Software Engineer with 20+ years building mission-critical syste
 
 **Impact:** Created national marketing campaign's technical infrastructure
 
-* Built Twilio-powered IVR system for "Buttery Secrets Hotline"  
-* Implemented voice recording, storage, and playback features  
-* Designed 4-option interactive menu with SMS integration  
-* Deployed serverless architecture on Vercel with AWS S3 storage  
+* Built Twilio-powered IVR system for "Buttery Secrets Hotline"
+* Implemented voice recording, storage, and playback features
+* Designed 4-option interactive menu with SMS integration
+* Deployed serverless architecture on Vercel with AWS S3 storage
 * **Tech Stack:** Node.js, Express, Twilio, AWS S3, PostgreSQL, Vercel
+
+**Cogability (2023-2025)**
+
+***Senior Full-Stack Engineer***
+
+**Impact:** Developed intelligent document processing platform for municipal ticket automation
+
+* Built end-to-end full-stack application processing 100K+ PDF documents monthly
+* Integrated AWS Textract OCR with Vision LLMs for automated document classification
+* Developed React frontend with real-time processing dashboards and admin controls
+* Created Python backend APIs handling document ingestion and data extraction workflows
+* Implemented authentication, role-based access control, and audit logging
+* **Tech Stack:** React, Python, AWS Lambda, Textract, Vision LLMs, DynamoDB, S3
 
 **Shell (2022-2023)**
 
@@ -101,9 +117,37 @@ Hands-on Senior Software Engineer with 20+ years building mission-critical syste
 
 **Impact:** Built enterprise-scale data analytics platform for energy load forecasting
 
-* Designed microservices architecture using AWS EKS/GCP GKE with Kafka backbone  
-* Implemented ML-powered predictive analytics reducing forecasting errors by 30%  
+* Designed microservices architecture using AWS EKS/GCP GKE with Kafka backbone
+* Implemented ML-powered predictive analytics reducing forecasting errors by 30%
 * Collaborated with team of 8 engineers implementing GitOps and ArgoCD
+
+**PredictiveHR (2021-2023)**
+
+***Senior Full-Stack Engineer***
+
+**Impact:** Built predictive analytics SaaS platform for workforce planning and HR forecasting
+
+* Architected full-stack application with React frontend and Python/TypeScript backend
+* Designed AWS CDK infrastructure deploying scalable cloud-native architecture
+* Built interactive dashboards visualizing predictive models and workforce analytics
+* Implemented Redshift data warehouse with AWS Glue ETL orchestration
+* Created AppFlow integrations for seamless SaaS data synchronization (Workday, ADP)
+* Developed comprehensive unit testing for Lambda functions achieving 90% coverage
+* **Tech Stack:** React, TypeScript, Python, AWS CDK, Lambda, Redshift, Glue, AppFlow
+
+**BetaCom (2020-2021)**
+
+***Lead Full-Stack Engineer***
+
+**Impact:** Architected real-time data visualization platform for 5G network monitoring
+
+* Built high-performance React dashboard displaying real-time network telemetry
+* Developed Python FastAPI async backend processing 50M+ events daily
+* Implemented WebSocket connections for sub-second live data updates
+* Designed Kafka streaming architecture for real-time event processing
+* Created PostgreSQL database schema optimized for time-series analytics
+* Built responsive UI components with real-time charts and performance metrics
+* **Tech Stack:** React, Python, FastAPI (async), Kafka, PostgreSQL, Redis, WebSockets
 
 **Fidelity Labs (2020-2023)**
 
@@ -149,9 +193,9 @@ Hands-on Senior Software Engineer with 20+ years building mission-critical syste
 
 ## **Innovation & Research**
 
-* **Patents:** Secure distributed messaging architecture  
-* **Open Source:** Active contributor to multiple projects  
-* **R\&D:** DARPA resilient cloud architectures using fault-tolerant rough-set grammars  
+* **Patents:** Secure distributed messaging architecture
+* **Open Source:** Active contributor to multiple projects
+* **R&D:** DARPA resilient cloud architectures using fault-tolerant rough-set grammars
 * **Thought Leadership:** Published research in distributed systems and quantum computing
 
 # **Technical Architecture Expertise**
@@ -176,11 +220,11 @@ Hands-on Senior Software Engineer with 20+ years building mission-critical syste
 
 I bring deep technical expertise and strong collaborative skills to build exceptional software. My approach focuses on:
 
-* **Engineering Excellence** \- Writing clean, maintainable, well-tested code  
-* **Technical Innovation** \- Implementing cutting-edge solutions with practical applications  
-* **Collaborative Development** \- Working effectively in agile teams and pair programming  
-* **System Optimization** \- Building performant, scalable architectures  
-* **Knowledge Sharing** \- Mentoring teammates and documenting solutions
+* **Engineering Excellence** - Writing clean, maintainable, well-tested code
+* **Technical Innovation** - Implementing cutting-edge solutions with practical applications
+* **Collaborative Development** - Working effectively in agile teams and pair programming
+* **System Optimization** - Building performant, scalable architectures
+* **Knowledge Sharing** - Mentoring teammates and documenting solutions
 
 # **Ready to Build Something Amazing Together?**
 
