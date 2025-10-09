@@ -2,7 +2,7 @@
 
 Senior Software Engineer | Full-Stack Developer | Cloud Architect
 
-[mlong@magneton.io](mailto:mlong@magneton.io) | 312-478-9956 | [LinkedIn](http://www.linkedin.com/in/mlabs1913)
+[mlong@magneton.io](mailto:mlong@magneton.io) | 773-299-4435 | [LinkedIn](http://www.linkedin.com/in/mlabs1913)
 
 # **Executive Summary**
 
@@ -117,9 +117,14 @@ Hands-on Senior Software Engineer with 20+ years building mission-critical syste
 
 **Impact:** Built enterprise-scale data analytics platform for energy load forecasting
 
-* Designed microservices architecture using AWS EKS/GCP GKE with Kafka backbone
-* Implemented ML-powered predictive analytics reducing forecasting errors by 30%
-* Collaborated with team of 8 engineers implementing GitOps and ArgoCD
+* Architected microservices platform on AWS EKS/GCP GKE with Kafka event streaming
+* Built Python FastAPI async APIs and Django REST services for real-time analytics
+* Developed ML models reducing forecasting errors by 30% using TensorFlow and scikit-learn
+* Created data pipelines processing 10M+ daily sensor readings with Pandas/NumPy
+* Implemented MLflow experiment tracking and Airflow orchestration for model retraining
+* Deployed 15+ containerized microservices using Docker and Helm charts
+* Collaborated with team of 8 engineers on GitOps workflows and ArgoCD deployments
+* **Tech Stack:** Python, FastAPI, Flask, Django, TensorFlow, scikit-learn, Pandas, Kafka, AWS EKS, GCP GKE, ArgoCD, MLflow, Airflow, PostgreSQL, Redis
 
 **PredictiveHR (2021-2023)**
 
@@ -230,6 +235,6 @@ I bring deep technical expertise and strong collaborative skills to build except
 
 Let's discuss how my engineering expertise can contribute to your team's success and help deliver exceptional software solutions.
 
-**Connect:** [mlong@magneton.io](mailto:mlong@magneton.io) | 312-478-9956 | [LinkedIn](http://www.linkedin.com/in/mlabs1913)
+**Connect:** [mlong@magneton.io](mailto:mlong@magneton.io) | 773-299-4435 | [LinkedIn](http://www.linkedin.com/in/mlabs1913)
 
 *References and detailed project portfolios available upon request*

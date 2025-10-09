@@ -2,7 +2,7 @@
 
 Senior Data Engineer | Python Engineer | Cloud Data Architect
 
-[mlong@magneton.io](mailto:mlong@magneton.io) | 312-478-9956 | [LinkedIn](http://www.linkedin.com/in/mlabs1913)
+[mlong@magneton.io](mailto:mlong@magneton.io) | 773-299-4435 | [LinkedIn](http://www.linkedin.com/in/mlabs1913)
 
 # **Executive Summary**
 
@@ -117,12 +117,14 @@ Senior Data Engineer with 20+ years building scalable data pipelines, analytics 
 
 **Impact:** Architected enterprise data analytics platform for energy forecasting
 
-* Designed microservices data architecture using Kafka as event backbone
-* Built real-time data processing pipelines reducing forecasting latency by 40%
-* Implemented ML-powered predictive analytics on time-series energy data
-* Created data lake on AWS S3 with Glue catalog for unified data access
-* Developed PySpark jobs for large-scale batch processing
-* **Tech Stack:** Python, PySpark, Kafka, AWS EKS, S3, Glue, Redshift
+* Designed microservices architecture using AWS EKS with Kafka event backbone
+* Built Python FastAPI async services for real-time data processing pipelines
+* Implemented ML-powered predictive analytics reducing forecasting errors by 30%
+* Developed scikit-learn models for time-series energy demand forecasting
+* Created data pipelines processing 10M+ sensor readings daily with Pandas/NumPy
+* Orchestrated Airflow DAGs for automated ETL and model retraining workflows
+* Deployed containerized Python services using Docker and Helm across clusters
+* **Tech Stack:** Python, FastAPI, scikit-learn, Airflow, Kafka, AWS EKS, S3, Glue, Redshift
 
 ## **PredictiveHR (2021-2023)**
 
@@ -230,6 +232,6 @@ I bring deep data engineering expertise with a focus on:
 
 Let's discuss how my data engineering expertise can help transform your data infrastructure and unlock business value.
 
-**Connect:** [mlong@magneton.io](mailto:mlong@magneton.io) | 312-478-9956 | [LinkedIn](http://www.linkedin.com/in/mlabs1913)
+**Connect:** [mlong@magneton.io](mailto:mlong@magneton.io) | 773-299-4435 | [LinkedIn](http://www.linkedin.com/in/mlabs1913)
 
 *References and detailed project portfolios available upon request*
