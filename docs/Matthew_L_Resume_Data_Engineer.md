@@ -2,7 +2,7 @@
 
 Senior Data Engineer | Python Engineer | Cloud Data Architect
 
-[mlong@magneton.io](mailto:mlong@magneton.io) | 773-299-4435 | [LinkedIn](http://www.linkedin.com/in/mlabs1913)
+[mlong@magneton.io](mailto:mlong@magneton.io) | 708-480-2232 | [LinkedIn](http://www.linkedin.com/in/mlabs1913)
 
 # **Executive Summary**
 
@@ -232,6 +232,6 @@ I bring deep data engineering expertise with a focus on:
 
 Let's discuss how my data engineering expertise can help transform your data infrastructure and unlock business value.
 
-**Connect:** [mlong@magneton.io](mailto:mlong@magneton.io) | 773-299-4435 | [LinkedIn](http://www.linkedin.com/in/mlabs1913)
+**Connect:** [mlong@magneton.io](mailto:mlong@magneton.io) | 708-480-2232 | [LinkedIn](http://www.linkedin.com/in/mlabs1913)
 
 *References and detailed project portfolios available upon request*

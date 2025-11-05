@@ -53,7 +53,7 @@ def create_social_preview():
         y_position += 50
     
     # Contact info at bottom
-    contact = "mlong@magneton.io | 773-299-4435"
+    contact = "mlong@magneton.io | 708-480-2232"
     draw.text((width/2, height - 50), contact, font=body_font, fill=text_color, anchor="mm")
     
     # Save the image

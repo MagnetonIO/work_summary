@@ -239,7 +239,7 @@ LaTeX, Jekyll, Jupyter, Mathematica, Category Theory libraries
 ## Contact & Collaboration
 
 **Email**: mlong@magneton.io  
-**Phone**: 773-299-4435  
+**Phone**: 708-480-2232  
 **LinkedIn**: [linkedin.com/in/mlabs1913](https://linkedin.com/in/mlabs1913)  
 **GitHub**: @magnetonio  
 

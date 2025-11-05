@@ -1,7 +1,7 @@
 # Matthew L
 ## Senior Software Engineer | Full-Stack Developer | Cloud Architect
 
-**Email:** mlong@magneton.io | **Phone:** 773-299-4435 | **LinkedIn:** linkedin.com/in/mlabs1913
+**Email:** mlong@magneton.io | **Phone:** 708-480-2232 | **LinkedIn:** linkedin.com/in/mlabs1913
 
 ---
 
