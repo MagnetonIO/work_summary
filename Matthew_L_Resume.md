@@ -61,9 +61,10 @@ Results-driven Senior Software Engineer with 20+ years delivering high-impact te
 
 ### **Cloud & Infrastructure**
 
-- **Multi-Cloud Expert:** AWS, Azure, GCP certified implementations
-- **DevOps Leadership:** Kubernetes, Terraform, CI/CD pipeline
-  optimization
+- **Multi-Cloud Expert:** AWS (primary), GCP, Azure certified implementations
+- **Infrastructure as Code:** Terraform (modules, state management, workspaces), AWS CDK, CloudFormation
+- **CI/CD Pipelines:** GitHub Actions, GitLab CI, Jenkins, CircleCI, AWS CodePipeline, ArgoCD (GitOps)
+- **Container Orchestration:** Kubernetes (EKS, GKE), Docker, Helm, service mesh
 - **Security Focus:** NIST, SOC2, PCI, HIPAA compliance implementation
 
 ### **Development Stack**
@@ -93,7 +94,9 @@ Results-driven Senior Software Engineer with 20+ years delivering high-impact te
 - **Increased returns processing efficiency 40%** - Built automated return service handling complex partial shipment logic, reducing manual intervention from 30% to 5% (52 commits)
 - **Eliminated 95% of webhook failures** - Implemented FedEx integration with Datadog monitoring and automated retry logic, improving delivery accuracy (67 commits)
 - **Scaled order APIs to 10K requests/second** - Created high-performance order management microservices supporting peak holiday traffic without degradation
-- **Tech Stack:** Node.js, Java/Spring Boot, Python, Google Cloud, Microservices, Kafka
+- **Automated infrastructure provisioning** - Developed Terraform modules for GCP resources (Cloud Run, Pub/Sub, BigQuery) enabling consistent environment deployment across dev/staging/prod
+- **Streamlined CI/CD pipelines** - Built GitHub Actions workflows with automated testing, security scanning, and blue-green deployments reducing release cycles from weekly to daily
+- **Tech Stack:** Node.js, Java/Spring Boot, Python, Google Cloud, Terraform, GitHub Actions, Microservices, Kafka, Datadog
 
 **TSI (2024-2025)**
 
@@ -106,7 +109,9 @@ Results-driven Senior Software Engineer with 20+ years delivering high-impact te
 - **Improved application performance 40%** - Optimized PostgreSQL database queries and implemented Redis caching, reducing average response time from 2.5s to 1.5s
 - **Accelerated feature delivery 50%** - Built React component library with modern patterns, reducing development time for new features from 4 weeks to 2 weeks
 - **Reduced infrastructure costs 25%** - Implemented resource optimization and rightsizing across AWS services through IaC best practices
-- **Tech Stack:** AWS (EC2, RDS, EKS), React.js, PHP Laravel, Kubernetes, PostgreSQL, Redis
+- **Deployed infrastructure as code** - Created Terraform configurations for AWS EKS, RDS, ElastiCache, and VPC networking with reusable modules and state management via S3/DynamoDB
+- **Established CI/CD automation** - Implemented GitLab CI pipelines with multi-stage builds, automated testing, container scanning, and Kubernetes deployments via Helm charts
+- **Tech Stack:** AWS (EC2, RDS, EKS, S3), Terraform, GitLab CI, Helm, React.js, PHP Laravel, Kubernetes, PostgreSQL, Redis
 
 **Pop Secret/PopCorners (2025)**
 
@@ -147,8 +152,10 @@ Results-driven Senior Software Engineer with 20+ years delivering high-impact te
 - **Accelerated model iteration 50%** - Implemented MLflow experiment tracking and Airflow orchestration, reducing model retraining cycle from 4 days to 2 days
 - **Achieved 99.9% API uptime** - Built high-performance Python FastAPI async services handling 5K requests/second with automated health checks and graceful degradation
 - **Improved deployment velocity 3x** - Established GitOps workflows with ArgoCD deploying 15+ microservices across multi-cloud environments
+- **Managed multi-cloud infrastructure** - Authored Terraform configurations for hybrid AWS/GCP deployments including EKS/GKE clusters, VPC peering, IAM policies, and service accounts
+- **Built robust CI/CD pipelines** - Created Jenkins and GitHub Actions pipelines with automated testing, Docker builds, vulnerability scanning, and ArgoCD sync for GitOps deployments
 - **Collaborated cross-functionally** - Partnered with 8-member engineering team using pair programming, code reviews, and agile sprints
-- **Tech Stack:** Python, FastAPI, Django, TensorFlow, scikit-learn, Pandas, Kafka, AWS EKS, GCP GKE, ArgoCD, MLflow, Airflow, PostgreSQL, Redis
+- **Tech Stack:** Python, FastAPI, Django, TensorFlow, Terraform, Jenkins, GitHub Actions, ArgoCD, AWS EKS, GCP GKE, Kafka, MLflow, Airflow, PostgreSQL, Redis
 
 **PredictiveHR (2021-2023)**
 
@@ -163,7 +170,9 @@ Results-driven Senior Software Engineer with 20+ years delivering high-impact te
 - **Achieved production-grade quality** - Developed comprehensive testing framework with 90% code coverage, reducing production incidents 80% post-launch
 - **Enabled real-time insights** - Created interactive React dashboards visualizing predictive models, headcount trends, and cost forecasts used by 200+ HR professionals
 - **Deployed scalable infrastructure** - Designed AWS CDK IaC deploying serverless architecture that auto-scaled to 10K concurrent users
-- **Tech Stack:** React, TypeScript, Python, AWS CDK, Lambda, Redshift, Glue, AppFlow, SageMaker, CloudWatch
+- **Implemented infrastructure automation** - Built Terraform modules for data pipeline infrastructure (Glue, Redshift, S3, IAM) with environment-specific variable files
+- **Automated deployment workflows** - Created AWS CodePipeline CI/CD with CodeBuild for testing, CDK synth/deploy, and automated rollback on CloudWatch alarm triggers
+- **Tech Stack:** React, TypeScript, Python, AWS CDK, Terraform, CodePipeline, Lambda, Redshift, Glue, AppFlow, SageMaker, CloudWatch
 
 **BetaCom (2020-2021)**
 
@@ -219,7 +228,9 @@ Results-driven Senior Software Engineer with 20+ years delivering high-impact te
 - **Awarded "Bug Fix of the Year 2017"** - Resolved critical performance bottleneck that improved detection speed 5x and prevented customer-facing incidents
 - **Scaled to 1M+ events/day** - Engineered cloud-native microservices architecture processing security events with 99.9% detection accuracy and <30s latency
 - **Improved system reliability 40%** - Implemented comprehensive monitoring, alerting, and automated remediation reducing critical incidents from 10/month to 6/month
-- **Tech Stack:** Ruby, Python, PostgreSQL, Redis, AWS (EC2, RDS, Lambda), Elasticsearch, Kafka
+- **Pioneered infrastructure as code** - Developed Terraform modules for AWS security scanning infrastructure (Lambda, SQS, SNS, CloudWatch) enabling repeatable multi-tenant deployments
+- **Established CI/CD best practices** - Built CircleCI pipelines with automated RSpec testing, Docker image builds, and zero-downtime ECS deployments
+- **Tech Stack:** Ruby, Python, Terraform, CircleCI, Docker, ECS, PostgreSQL, Redis, AWS (EC2, RDS, Lambda, SQS, SNS), Elasticsearch, Kafka
 
 # **Industry Impact**
 
