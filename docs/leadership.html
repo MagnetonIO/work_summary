@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Primary Meta Tags -->
-    <title>Matthew Long | Senior Software Engineer | Full-Stack Developer</title>
-    <meta name="title" content="Matthew Long | Senior Software Engineer | Full-Stack Developer">
-    <meta name="description" content="20+ years building mission-critical systems. $300M exit at Evident.io. Expert in React, Node.js, Python, AWS, and AI/ML. Patent holder driving innovation.">
+    <title>Matthew Long | Engineering Leader & CTO | Technology Executive</title>
+    <meta name="title" content="Matthew Long | Engineering Leader & CTO | Technology Executive">
+    <meta name="description" content="Technology executive with 20+ years leading engineering teams and driving technical strategy. CTO & Director experience. $300M exit. Patent holder. DARPA innovator.">
     <meta name="author" content="Matthew Long">
-    <meta name="keywords" content="Software Engineer, Full-Stack Developer, Cloud Architect, AI/ML, React, Node.js, Python, AWS, DevOps">
+    <meta name="keywords" content="CTO, VP Engineering, Engineering Leader, Technology Executive, Technical Strategy, Team Leadership, Cloud Architecture, AI/ML Strategy">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://magnetonio.github.io/work_summary/">
-    <meta property="og:title" content="Matthew Long | Senior Software Engineer">
-    <meta property="og:description" content="20+ years building mission-critical systems. $300M exit at Evident.io. Expert in React, Node.js, Python, AWS, and AI/ML.">
+    <meta property="og:url" content="https://magnetonio.github.io/work_summary/leadership.html">
+    <meta property="og:title" content="Matthew Long | Engineering Leader & CTO">
+    <meta property="og:description" content="Technology executive with 20+ years leading engineering teams. CTO & Director experience. $300M exit. Patent holder. DARPA innovator.">
     <meta property="og:image" content="https://magnetonio.github.io/work_summary/social-preview.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -25,9 +25,9 @@
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://magnetonio.github.io/work_summary/">
-    <meta property="twitter:title" content="Matthew Long | Senior Software Engineer">
-    <meta property="twitter:description" content="20+ years building mission-critical systems. $300M exit. Expert in Full-Stack, Cloud, and AI/ML.">
+    <meta property="twitter:url" content="https://magnetonio.github.io/work_summary/leadership.html">
+    <meta property="twitter:title" content="Matthew Long | Engineering Leader & CTO">
+    <meta property="twitter:description" content="Technology executive. 20+ years leading teams. CTO & Director. $300M exit. Patent holder. DARPA innovator.">
     <meta property="twitter:image" content="https://magnetonio.github.io/work_summary/social-preview.png">
 
     <!-- LinkedIn specific -->
@@ -35,7 +35,7 @@
     <meta property="article:published_time" content="2025-01-01">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://magnetonio.github.io/work_summary/">
+    <link rel="canonical" href="https://magnetonio.github.io/work_summary/leadership.html">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=">
@@ -126,7 +126,7 @@
         }
 
         .logo span {
-            color: var(--blue);
+            color: var(--green);
         }
 
         .mobile-menu {
@@ -158,6 +158,34 @@
             color: var(--navy);
         }
 
+        /* ── Page Toggle ── */
+        .page-toggle {
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            background: var(--green-light);
+            color: var(--green);
+            text-decoration: none;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            white-space: nowrap;
+        }
+
+        .page-toggle:hover {
+            background: var(--green);
+            color: var(--white);
+        }
+
+        @media (max-width: 768px) {
+            .page-toggle {
+                font-size: 0.7rem;
+                padding: 5px 12px;
+            }
+        }
+
         /* ── Hero ── */
         .hero {
             min-height: 100vh;
@@ -177,8 +205,8 @@
             right: 0;
             bottom: 0;
             background:
-                radial-gradient(ellipse at 20% 50%, rgba(37, 99, 235, 0.15) 0%, transparent 50%),
-                radial-gradient(ellipse at 80% 20%, rgba(37, 99, 235, 0.08) 0%, transparent 50%);
+                radial-gradient(ellipse at 20% 50%, rgba(5, 150, 105, 0.15) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(217, 119, 6, 0.1) 0%, transparent 50%);
             pointer-events: none;
         }
 
@@ -274,12 +302,12 @@
         }
 
         .btn-primary {
-            background: var(--blue);
+            background: var(--green);
             color: var(--white);
         }
 
         .btn-primary:hover {
-            background: var(--blue-light);
+            background: #047857;
         }
 
         .btn-outline {
@@ -311,7 +339,7 @@
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.1em;
-            color: var(--blue);
+            color: var(--green);
             margin-bottom: 0.5rem;
         }
 
@@ -328,6 +356,41 @@
             color: var(--slate-500);
             margin-top: 0.5rem;
             max-width: 600px;
+        }
+
+        /* ── Philosophy Cards ── */
+        .philosophy-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+        }
+
+        .philosophy-card {
+            padding: 2rem;
+            border: 1px solid var(--slate-200);
+            border-radius: 12px;
+            background: var(--white);
+        }
+
+        .philosophy-card h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--navy);
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .philosophy-card h3 i {
+            color: var(--green);
+            font-size: 1rem;
+        }
+
+        .philosophy-card p {
+            font-size: 0.9rem;
+            color: var(--slate-500);
+            line-height: 1.6;
         }
 
         /* ── Achievements ── */
@@ -348,7 +411,7 @@
         .achievement-metric {
             font-size: 1.5rem;
             font-weight: 700;
-            color: var(--navy);
+            color: var(--amber);
             letter-spacing: -0.02em;
             margin-bottom: 0.25rem;
         }
@@ -383,8 +446,8 @@
         }
 
         .project-card:hover {
-            border-color: var(--blue-muted);
-            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.06);
+            border-color: var(--green-light);
+            box-shadow: 0 4px 12px rgba(5, 150, 105, 0.06);
         }
 
         .project-side {
@@ -401,7 +464,7 @@
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.06em;
-            color: var(--blue);
+            color: var(--green);
             margin-bottom: 0.25rem;
         }
 
@@ -438,8 +501,8 @@
 
         .tech-tag {
             padding: 0.25rem 0.625rem;
-            background: var(--slate-100);
-            color: var(--slate-700);
+            background: var(--green-light);
+            color: var(--green);
             border-radius: 4px;
             font-size: 0.75rem;
             font-weight: 500;
@@ -473,7 +536,7 @@
         }
 
         .skill-category h3 i {
-            color: var(--blue);
+            color: var(--green);
             font-size: 0.9rem;
         }
 
@@ -545,7 +608,7 @@
         }
 
         .industry-tag i {
-            color: var(--blue);
+            color: var(--green);
             font-size: 0.85rem;
         }
 
@@ -597,7 +660,7 @@
         .contact-link i {
             width: 20px;
             text-align: center;
-            color: var(--blue);
+            color: var(--green);
         }
 
         .social-links {
@@ -621,9 +684,9 @@
         }
 
         .social-link:hover {
-            border-color: var(--blue);
-            color: var(--blue);
-            background: rgba(37, 99, 235, 0.1);
+            border-color: var(--green);
+            color: var(--green);
+            background: rgba(5, 150, 105, 0.1);
         }
 
         /* ── Footer ── */
@@ -687,6 +750,10 @@
                 grid-template-columns: repeat(2, 1fr);
             }
 
+            .philosophy-grid {
+                grid-template-columns: 1fr;
+            }
+
             .project-card {
                 grid-template-columns: 1fr;
             }
@@ -741,37 +808,9 @@
             .hero .subtitle, .stat-label { color: #333; }
         }
 
-        /* ── Page Toggle ── */
-        .page-toggle {
-            padding: 6px 14px;
-            border-radius: 20px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            background: var(--blue-muted);
-            color: var(--blue);
-            text-decoration: none;
-            transition: all 0.2s;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.4rem;
-            white-space: nowrap;
-        }
-
-        .page-toggle:hover {
-            background: var(--blue);
-            color: var(--white);
-        }
-
-        @media (max-width: 768px) {
-            .page-toggle {
-                font-size: 0.7rem;
-                padding: 5px 12px;
-            }
-        }
-
         /* ── Accessibility ── */
         :focus-visible {
-            outline: 2px solid var(--blue);
+            outline: 2px solid var(--green);
             outline-offset: 2px;
         }
     </style>
@@ -781,17 +820,18 @@
     <nav id="mainNav">
         <div class="nav-container">
             <div class="logo">Matthew <span>Long</span></div>
-            <a href="leadership.html" class="page-toggle">
-                <i class="fas fa-user-tie"></i> Leadership View
+            <a href="index.html" class="page-toggle">
+                <i class="fas fa-code"></i> Engineering View
             </a>
             <button class="mobile-menu" aria-label="Toggle menu" onclick="toggleMenu()">
                 <i class="fas fa-bars"></i>
             </button>
             <ul class="nav-links" id="navLinks">
                 <li><a href="#home">Home</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
+                <li><a href="#philosophy">Philosophy</a></li>
+                <li><a href="#achievements">Impact</a></li>
+                <li><a href="#engagements">Engagements</a></li>
+                <li><a href="#capabilities">Capabilities</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -802,29 +842,29 @@
         <div class="hero-content">
             <div class="hero-top">
                 <h1>Matthew Long</h1>
-                <p class="subtitle">Senior Software Engineer &middot; Full-Stack Developer &middot; Cloud Architect</p>
-                <p class="tagline">20+ years building mission-critical systems for Fortune 500 companies</p>
+                <p class="subtitle">Technology Executive &middot; CTO &middot; Engineering Leader</p>
+                <p class="tagline">20+ years driving technical strategy and building high-performance engineering organizations</p>
             </div>
 
             <div class="stats-row">
                 <div class="stat">
                     <span class="stat-number">20+</span>
-                    <span class="stat-label">Years Experience</span>
+                    <span class="stat-label">Years Leading Teams</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
                     <span class="stat-number">$300M</span>
-                    <span class="stat-label">Exit at Evident.io</span>
+                    <span class="stat-label">Exit Stewardship</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
                     <span class="stat-number">100+</span>
-                    <span class="stat-label">Projects Delivered</span>
+                    <span class="stat-label">Orgs Transformed</span>
                 </div>
                 <div class="stat-divider"></div>
                 <div class="stat">
-                    <span class="stat-number">2,300+</span>
-                    <span class="stat-label">Commits 2024-25</span>
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Engineers Led</span>
                 </div>
             </div>
 
@@ -838,84 +878,104 @@
                 <a href="https://linkedin.com/in/mlabs1913" class="btn btn-outline" target="_blank" rel="noopener">
                     <i class="fab fa-linkedin"></i> LinkedIn
                 </a>
-                <a href="https://github.com/MagnetonIO" class="btn btn-outline" target="_blank" rel="noopener">
-                    <i class="fab fa-github"></i> GitHub
-                </a>
-                <a href="leadership.html" class="btn btn-outline">
-                    <i class="fas fa-user-tie"></i> Leadership Profile
+                <a href="index.html" class="btn btn-outline">
+                    <i class="fas fa-code"></i> Engineering Profile
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Key Achievements -->
-    <section class="section" id="achievements">
+    <!-- Leadership Philosophy -->
+    <section class="section" id="philosophy">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Approach</div>
+                <h2 class="section-title">Leadership Philosophy</h2>
+            </div>
+
+            <div class="philosophy-grid">
+                <div class="philosophy-card reveal">
+                    <h3><i class="fas fa-hammer"></i> Builder-Leader</h3>
+                    <p>I lead by building alongside my team. Technical credibility comes from shipping code, not just directing it. With 2,300+ commits in the past year alone, I stay hands-on while setting strategic direction.</p>
+                </div>
+                <div class="philosophy-card reveal">
+                    <h3><i class="fas fa-project-diagram"></i> Org Multiplier</h3>
+                    <p>I design engineering organizations that scale. The right architecture of people is as important as the right architecture of code. I've built and led teams of teams — 20+ engineers across multiple product lines.</p>
+                </div>
+                <div class="philosophy-card reveal">
+                    <h3><i class="fas fa-bullseye"></i> Outcome-Driven</h3>
+                    <p>Every technical decision maps to business impact. $300M exits happen when engineering and strategy align. I translate complex technical challenges into measurable business outcomes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Executive Achievements -->
+    <section class="section section-alt" id="achievements">
         <div class="container">
             <div class="section-header">
                 <div class="section-label">Track Record</div>
-                <h2 class="section-title">Key Achievements</h2>
+                <h2 class="section-title">Executive Impact</h2>
             </div>
 
             <div class="achievements-grid reveal">
                 <div class="achievement-item">
                     <div class="achievement-metric">$300M</div>
-                    <div class="achievement-label">Acquisition Exit</div>
-                    <div class="achievement-desc">Core contributor at Evident.io, acquired by Palo Alto Networks</div>
+                    <div class="achievement-label">Exit Contribution</div>
+                    <div class="achievement-desc">Steered technical strategy at Evident.io through successful Palo Alto Networks acquisition</div>
                 </div>
                 <div class="achievement-item">
-                    <div class="achievement-metric">$70K</div>
-                    <div class="achievement-label">Annual Cost Savings</div>
-                    <div class="achievement-desc">Optimized AWS infrastructure reducing operational costs 35%</div>
+                    <div class="achievement-metric">20+</div>
+                    <div class="achievement-label">Engineers Led</div>
+                    <div class="achievement-desc">Built and managed cross-functional engineering teams across multiple product lines</div>
                 </div>
                 <div class="achievement-item">
-                    <div class="achievement-metric">100+</div>
-                    <div class="achievement-label">Engagements</div>
-                    <div class="achievement-desc">High-value solutions across Finance, Healthcare, Energy, and Government</div>
+                    <div class="achievement-metric">DARPA</div>
+                    <div class="achievement-label">Alliance Member</div>
+                    <div class="achievement-desc">Selected as distinguished technology innovator and leadership alliance member</div>
                 </div>
                 <div class="achievement-item">
                     <div class="achievement-metric">Patent</div>
                     <div class="achievement-label">Holder</div>
-                    <div class="achievement-desc">Invented a secure distributed messaging architecture</div>
+                    <div class="achievement-desc">Invented secure distributed messaging architecture — concept through patent grant</div>
                 </div>
                 <div class="achievement-item">
-                    <div class="achievement-metric">DARPA</div>
-                    <div class="achievement-label">Recognition</div>
-                    <div class="achievement-desc">Distinguished technology innovator and leadership alliance member</div>
+                    <div class="achievement-metric">100+</div>
+                    <div class="achievement-label">Client Engagements</div>
+                    <div class="achievement-desc">Trusted technical advisor across Fortune 500 and high-growth organizations</div>
                 </div>
                 <div class="achievement-item">
-                    <div class="achievement-metric">68</div>
-                    <div class="achievement-label">Active Repositories</div>
-                    <div class="achievement-desc">2,300+ commits across diverse projects in 2024-2025</div>
+                    <div class="achievement-metric">PhD</div>
+                    <div class="achievement-label">Mathematics</div>
+                    <div class="achievement-desc">Research in distributed systems, quantum computing, and applied mathematics</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Recent Projects -->
-    <section class="section section-alt" id="projects">
+    <!-- Strategic Engagements -->
+    <section class="section" id="engagements">
         <div class="container">
             <div class="section-header">
-                <div class="section-label">Recent Work</div>
-                <h2 class="section-title">Featured Engagements</h2>
-                <p class="section-subtitle">Selected projects demonstrating full-stack, cloud, and AI expertise</p>
+                <div class="section-label">Strategic Impact</div>
+                <h2 class="section-title">Leadership Engagements</h2>
+                <p class="section-subtitle">The same engagements, viewed through the lens of leadership, strategy, and organizational impact</p>
             </div>
 
             <div class="projects-list">
                 <div class="project-card reveal">
                     <div class="project-side">
                         <div class="project-company">Zoro / Grainger</div>
-                        <div class="project-title">E-commerce Microservices</div>
+                        <div class="project-title">Platform Strategy</div>
                         <div class="project-year">2024 - 2025</div>
                     </div>
                     <div class="project-body">
-                        <p class="project-desc">Built real-time shipment tracking and returns processing microservices handling millions of daily transactions. Reduced query latency 60%, eliminated 95% of webhook failures, and scaled APIs to 10K req/s.</p>
+                        <p class="project-desc">Led cross-functional integration across 5+ distributed systems. Drove architectural decisions for microservices strategy handling millions of daily transactions. Coordinated with product, QA, and DevOps teams to deliver on aggressive timelines while scaling APIs to 10K req/s.</p>
                         <div class="tech-tags">
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">Java/Spring</span>
-                            <span class="tech-tag">GCP</span>
-                            <span class="tech-tag">Terraform</span>
-                            <span class="tech-tag">Kafka</span>
-                            <span class="tech-tag">Datadog</span>
+                            <span class="tech-tag">Architecture Strategy</span>
+                            <span class="tech-tag">Cross-functional Leadership</span>
+                            <span class="tech-tag">Microservices</span>
+                            <span class="tech-tag">Stakeholder Alignment</span>
                         </div>
                     </div>
                 </div>
@@ -923,18 +983,16 @@
                 <div class="project-card reveal">
                     <div class="project-side">
                         <div class="project-company">TSI</div>
-                        <div class="project-title">Cloud Migration</div>
+                        <div class="project-title">Cloud Transformation</div>
                         <div class="project-year">2024 - 2025</div>
                     </div>
                     <div class="project-body">
-                        <p class="project-desc">Migrated legacy on-premise infrastructure to AWS. Achieved 99.95% uptime, improved performance 40%, accelerated feature delivery 50%, and reduced infrastructure costs 25%.</p>
+                        <p class="project-desc">Defined cloud migration strategy and roadmap for legacy-to-modern transformation. Managed stakeholder alignment across engineering and business teams. Delivered 25% infrastructure cost reduction while improving reliability from 80% to 99.95% uptime — enabling 3x business growth.</p>
                         <div class="tech-tags">
-                            <span class="tech-tag">AWS EKS</span>
-                            <span class="tech-tag">Terraform</span>
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Laravel</span>
-                            <span class="tech-tag">Kubernetes</span>
-                            <span class="tech-tag">Helm</span>
+                            <span class="tech-tag">Migration Strategy</span>
+                            <span class="tech-tag">Cost Optimization</span>
+                            <span class="tech-tag">Stakeholder Management</span>
+                            <span class="tech-tag">Business Enablement</span>
                         </div>
                     </div>
                 </div>
@@ -942,17 +1000,16 @@
                 <div class="project-card reveal">
                     <div class="project-side">
                         <div class="project-company">Pop Secret</div>
-                        <div class="project-title">Voice AI Campaign</div>
+                        <div class="project-title">Rapid Delivery</div>
                         <div class="project-year">2025</div>
                     </div>
                     <div class="project-body">
-                        <p class="project-desc">Deployed Twilio IVR system for national marketing campaign in 10 days. Handled 50K+ calls without incidents with &lt;200ms response times during viral traffic spikes.</p>
+                        <p class="project-desc">Owned end-to-end delivery under 2-week deadline for national marketing campaign. Made build-vs-buy decisions on infrastructure, managed vendor relationships (Twilio, Vercel), and delivered 40% ahead of schedule. System handled 50K+ calls without incidents.</p>
                         <div class="tech-tags">
-                            <span class="tech-tag">Node.js</span>
-                            <span class="tech-tag">Twilio</span>
-                            <span class="tech-tag">AWS S3</span>
-                            <span class="tech-tag">PostgreSQL</span>
-                            <span class="tech-tag">Serverless</span>
+                            <span class="tech-tag">Vendor Management</span>
+                            <span class="tech-tag">Build vs. Buy</span>
+                            <span class="tech-tag">Deadline Delivery</span>
+                            <span class="tech-tag">Risk Management</span>
                         </div>
                     </div>
                 </div>
@@ -960,17 +1017,16 @@
                 <div class="project-card reveal">
                     <div class="project-side">
                         <div class="project-company">Cogability</div>
-                        <div class="project-title">Document Intelligence</div>
+                        <div class="project-title">AI Product Strategy</div>
                         <div class="project-year">2023 - 2024</div>
                     </div>
                     <div class="project-body">
-                        <p class="project-desc">Built AI-powered document automation for municipal governments. Reduced ticket processing time 85%, achieved 99.5% classification accuracy, processed 1.2M+ documents.</p>
+                        <p class="project-desc">Drove AI adoption strategy for municipal government clients. Defined product roadmap for document intelligence platform. Led evaluation and integration of Vision LLM technologies (Claude, GPT-4V). Reduced client operational costs by eliminating 34 staff-hours per month.</p>
                         <div class="tech-tags">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">AWS Lambda</span>
-                            <span class="tech-tag">Textract</span>
-                            <span class="tech-tag">Vision LLMs</span>
+                            <span class="tech-tag">AI Strategy</span>
+                            <span class="tech-tag">Product Roadmap</span>
+                            <span class="tech-tag">Government Clients</span>
+                            <span class="tech-tag">Technology Evaluation</span>
                         </div>
                     </div>
                 </div>
@@ -978,18 +1034,16 @@
                 <div class="project-card reveal">
                     <div class="project-side">
                         <div class="project-company">Shell</div>
-                        <div class="project-title">Energy Analytics</div>
+                        <div class="project-title">Analytics Leadership</div>
                         <div class="project-year">2022 - 2023</div>
                     </div>
                     <div class="project-body">
-                        <p class="project-desc">Developed ensemble ML models reducing forecasting errors 30% and saving $600K+ annually. Scaled to 10M+ daily events with real-time Kafka streaming on multi-cloud infrastructure.</p>
+                        <p class="project-desc">Led team of 8 engineers on multi-cloud analytics platform. Established GitOps workflows and engineering best practices across the organization. Delivered $600K+ annual savings through ML-driven forecasting. Managed cross-team coordination across data science, platform, and operations.</p>
                         <div class="tech-tags">
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">FastAPI</span>
-                            <span class="tech-tag">TensorFlow</span>
-                            <span class="tech-tag">Kafka</span>
-                            <span class="tech-tag">AWS/GCP</span>
-                            <span class="tech-tag">ArgoCD</span>
+                            <span class="tech-tag">Team Leadership</span>
+                            <span class="tech-tag">Engineering Culture</span>
+                            <span class="tech-tag">Multi-cloud Strategy</span>
+                            <span class="tech-tag">Cost Savings</span>
                         </div>
                     </div>
                 </div>
@@ -997,18 +1051,16 @@
                 <div class="project-card reveal">
                     <div class="project-side">
                         <div class="project-company">PredictiveHR</div>
-                        <div class="project-title">Workforce Analytics SaaS</div>
+                        <div class="project-title">SaaS Product Vision</div>
                         <div class="project-year">2021 - 2023</div>
                     </div>
                     <div class="project-body">
-                        <p class="project-desc">Built ML-powered analytics platform improving attrition prediction accuracy from 40% to 85%. Reduced forecasting time 95% with automated data pipelines.</p>
+                        <p class="project-desc">Architected product strategy for SaaS workforce analytics platform. Designed infrastructure strategy for scalable, cost-effective deployment. Integrated with enterprise HR systems (Workday, ADP, BambooHR) requiring complex vendor negotiations and API partnerships. Platform served 200+ HR professionals.</p>
                         <div class="tech-tags">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">TypeScript</span>
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">AWS CDK</span>
-                            <span class="tech-tag">Redshift</span>
-                            <span class="tech-tag">SageMaker</span>
+                            <span class="tech-tag">Product Strategy</span>
+                            <span class="tech-tag">SaaS Architecture</span>
+                            <span class="tech-tag">Vendor Partnerships</span>
+                            <span class="tech-tag">Enterprise Integration</span>
                         </div>
                     </div>
                 </div>
@@ -1016,18 +1068,16 @@
                 <div class="project-card reveal">
                     <div class="project-side">
                         <div class="project-company">BetaCom</div>
-                        <div class="project-title">5G Network Monitoring</div>
+                        <div class="project-title">Engineering Lead</div>
                         <div class="project-year">2020 - 2021</div>
                     </div>
                     <div class="project-body">
-                        <p class="project-desc">Built real-time monitoring dashboard reducing incident detection from 8 minutes to 20 seconds. Scaled to 50M+ daily events with 99.95% delivery guarantee.</p>
+                        <p class="project-desc">Led full-stack engineering team as Lead Engineer for 5G monitoring platform. Defined real-time architecture capable of 50M+ daily events. Reduced SLA penalties 75% through architectural decisions that cut incident detection from 8 minutes to 20 seconds. Mentored junior engineers and established code review practices.</p>
                         <div class="tech-tags">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">FastAPI</span>
-                            <span class="tech-tag">Kafka</span>
-                            <span class="tech-tag">PostgreSQL</span>
-                            <span class="tech-tag">WebSockets</span>
-                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Team Leadership</span>
+                            <span class="tech-tag">Architecture Decisions</span>
+                            <span class="tech-tag">SLA Management</span>
+                            <span class="tech-tag">Mentorship</span>
                         </div>
                     </div>
                 </div>
@@ -1035,18 +1085,16 @@
                 <div class="project-card reveal">
                     <div class="project-side">
                         <div class="project-company">Fidelity Labs</div>
-                        <div class="project-title">RegTech Platform</div>
+                        <div class="project-title">Compliance Strategy</div>
                         <div class="project-year">2020 - 2023</div>
                     </div>
                     <div class="project-body">
-                        <p class="project-desc">Architected SOC2-compliant multi-cloud platform achieving 99.995% uptime. Improved compliance accuracy 45% using BERT-based NLP for regulatory document classification.</p>
+                        <p class="project-desc">Drove compliance-first engineering culture for RegTech platform at a major financial institution. Managed multi-cloud strategy across AWS and GCP for SOC2-compliant infrastructure achieving 99.995% uptime. Led AI/ML adoption for regulatory classification, improving compliance accuracy 45%.</p>
                         <div class="tech-tags">
-                            <span class="tech-tag">React</span>
-                            <span class="tech-tag">Spring Boot</span>
-                            <span class="tech-tag">BERT/NLP</span>
-                            <span class="tech-tag">AWS</span>
-                            <span class="tech-tag">GCP</span>
-                            <span class="tech-tag">Kafka</span>
+                            <span class="tech-tag">Compliance Leadership</span>
+                            <span class="tech-tag">Multi-cloud Strategy</span>
+                            <span class="tech-tag">AI Adoption</span>
+                            <span class="tech-tag">Risk Mitigation</span>
                         </div>
                     </div>
                 </div>
@@ -1054,18 +1102,16 @@
                 <div class="project-card reveal">
                     <div class="project-side">
                         <div class="project-company">Evident.io</div>
-                        <div class="project-title">Cloud Security Platform</div>
+                        <div class="project-title">$300M Acquisition</div>
                         <div class="project-year">2016 - 2018</div>
                     </div>
                     <div class="project-body">
-                        <p class="project-desc">Core engineer contributing to $300M Palo Alto Networks acquisition. Reduced AWS costs $70K/yr, scaled to 1M+ events/day, awarded "Bug Fix of the Year 2017."</p>
+                        <p class="project-desc">Key contributor to technical strategy that positioned the company for $300M Palo Alto Networks acquisition. Drove cost optimization initiative saving $70K annually. Championed engineering quality culture — awarded "Bug Fix of the Year 2017." Scaled platform from 100K to 1M+ daily security events.</p>
                         <div class="tech-tags">
-                            <span class="tech-tag">Ruby</span>
-                            <span class="tech-tag">Python</span>
-                            <span class="tech-tag">Terraform</span>
-                            <span class="tech-tag">Docker</span>
-                            <span class="tech-tag">ECS</span>
-                            <span class="tech-tag">Elasticsearch</span>
+                            <span class="tech-tag">M&amp;A Contribution</span>
+                            <span class="tech-tag">Cost Optimization</span>
+                            <span class="tech-tag">Engineering Culture</span>
+                            <span class="tech-tag">Scale Strategy</span>
                         </div>
                     </div>
                 </div>
@@ -1073,75 +1119,64 @@
         </div>
     </section>
 
-    <!-- Skills -->
-    <section class="section" id="skills">
+    <!-- Leadership Capabilities -->
+    <section class="section section-alt" id="capabilities">
         <div class="container">
             <div class="section-header">
-                <div class="section-label">Expertise</div>
-                <h2 class="section-title">Technical Skills</h2>
-                <p class="section-subtitle">Full-stack capabilities across the modern engineering stack</p>
+                <div class="section-label">Capabilities</div>
+                <h2 class="section-title">Leadership &amp; Strategic Skills</h2>
             </div>
 
             <div class="skills-grid">
                 <div class="skill-category reveal">
-                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <h3><i class="fas fa-chess-king"></i> Strategic Leadership</h3>
                     <div class="skill-items">
-                        <span class="skill-item">Python</span>
-                        <span class="skill-item">JavaScript</span>
-                        <span class="skill-item">TypeScript</span>
-                        <span class="skill-item">Java</span>
-                        <span class="skill-item">Go</span>
-                        <span class="skill-item">Scala</span>
-                        <span class="skill-item">Ruby</span>
+                        <span class="skill-item">Technical Vision &amp; Roadmapping</span>
+                        <span class="skill-item">Build vs. Buy Decisions</span>
+                        <span class="skill-item">Vendor Evaluation</span>
+                        <span class="skill-item">Budget &amp; Cost Optimization</span>
+                        <span class="skill-item">M&amp;A Technical Due Diligence</span>
                     </div>
                 </div>
 
                 <div class="skill-category reveal">
-                    <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                    <h3><i class="fas fa-users"></i> Organization Building</h3>
                     <div class="skill-items">
-                        <span class="skill-item">React</span>
-                        <span class="skill-item">Node.js</span>
-                        <span class="skill-item">Next.js</span>
-                        <span class="skill-item">Spring Boot</span>
-                        <span class="skill-item">FastAPI</span>
-                        <span class="skill-item">Django</span>
-                        <span class="skill-item">Express</span>
+                        <span class="skill-item">Teams of Teams (20+ Engineers)</span>
+                        <span class="skill-item">Cross-functional Coordination</span>
+                        <span class="skill-item">Engineering Culture &amp; Practices</span>
+                        <span class="skill-item">Mentorship &amp; Career Development</span>
+                        <span class="skill-item">Agile at Scale</span>
                     </div>
                 </div>
 
                 <div class="skill-category reveal">
-                    <h3><i class="fas fa-cloud"></i> Cloud & DevOps</h3>
+                    <h3><i class="fas fa-sitemap"></i> Technical Strategy</h3>
                     <div class="skill-items">
-                        <span class="skill-item">AWS</span>
-                        <span class="skill-item">GCP</span>
-                        <span class="skill-item">Azure</span>
-                        <span class="skill-item">Kubernetes</span>
-                        <span class="skill-item">Docker</span>
-                        <span class="skill-item">Terraform</span>
-                        <span class="skill-item">ArgoCD</span>
-                        <span class="skill-item">GitHub Actions</span>
+                        <span class="skill-item">Cloud Migration Strategy</span>
+                        <span class="skill-item">AI/ML Adoption Roadmaps</span>
+                        <span class="skill-item">Platform Architecture</span>
+                        <span class="skill-item">Security &amp; Compliance (SOC2, HIPAA, PCI)</span>
+                        <span class="skill-item">Multi-cloud Strategy</span>
                     </div>
                 </div>
 
                 <div class="skill-category reveal">
-                    <h3><i class="fas fa-database"></i> Data & AI</h3>
+                    <h3><i class="fas fa-chart-bar"></i> Business Impact</h3>
                     <div class="skill-items">
-                        <span class="skill-item">PostgreSQL</span>
-                        <span class="skill-item">Redis</span>
-                        <span class="skill-item">Kafka</span>
-                        <span class="skill-item">TensorFlow</span>
-                        <span class="skill-item">PyTorch</span>
-                        <span class="skill-item">Spark</span>
-                        <span class="skill-item">BigQuery</span>
-                        <span class="skill-item">Snowflake</span>
+                        <span class="skill-item">$300M Exit Contribution</span>
+                        <span class="skill-item">Revenue-Driving Platforms</span>
+                        <span class="skill-item">Cost Reduction Initiatives</span>
+                        <span class="skill-item">Compliance &amp; Risk Mitigation</span>
+                        <span class="skill-item">Client Advisory &amp; Consulting</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Education & Industries -->
-    <section class="section section-alt">
+    <!-- Education & Recognition -->
+    <section class="section">
         <div class="container">
             <div class="edu-industries-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
                 <div>
@@ -1155,7 +1190,7 @@
                             <p class="school">Aion University</p>
                         </div>
                         <div class="education-item reveal">
-                            <h3>M.S. & B.S. Computer Science</h3>
+                            <h3>M.S. &amp; B.S. Computer Science</h3>
                             <p class="school">University of Colorado</p>
                         </div>
                         <div class="education-item reveal">
@@ -1166,24 +1201,35 @@
                 </div>
                 <div>
                     <div class="section-header">
-                        <div class="section-label">Industry Reach</div>
-                        <h2 class="section-title" style="font-size: 1.5rem;">Sectors Served</h2>
+                        <div class="section-label">Recognition</div>
+                        <h2 class="section-title" style="font-size: 1.5rem;">Innovation &amp; Research</h2>
                     </div>
-                    <div class="industries-row reveal">
-                        <span class="industry-tag"><i class="fas fa-chart-line"></i> Financial Services</span>
-                        <span class="industry-tag"><i class="fas fa-bolt"></i> Energy & Utilities</span>
-                        <span class="industry-tag"><i class="fas fa-microchip"></i> Technology</span>
-                        <span class="industry-tag"><i class="fas fa-landmark"></i> Government</span>
-                        <span class="industry-tag"><i class="fas fa-shopping-cart"></i> Retail</span>
-                        <span class="industry-tag"><i class="fas fa-heartbeat"></i> Healthcare</span>
+                    <div class="education-grid" style="grid-template-columns: 1fr;">
+                        <div class="education-item reveal">
+                            <h3><i class="fas fa-award" style="color: var(--amber); margin-right: 0.5rem;"></i>DARPA Innovator</h3>
+                            <p>Distinguished technology innovator and leadership alliance member</p>
+                        </div>
+                        <div class="education-item reveal">
+                            <h3><i class="fas fa-lightbulb" style="color: var(--amber); margin-right: 0.5rem;"></i>Patent Holder</h3>
+                            <p>Secure distributed messaging architecture</p>
+                        </div>
+                        <div class="education-item reveal">
+                            <h3><i class="fas fa-flask" style="color: var(--amber); margin-right: 0.5rem;"></i>Published Research</h3>
+                            <p>Distributed systems, quantum computing, and applied mathematics</p>
+                        </div>
                     </div>
                     <div style="margin-top: 1.5rem;">
                         <div class="section-header" style="margin-bottom: 1rem;">
-                            <h2 class="section-title" style="font-size: 1.5rem;">Notable Clients</h2>
+                            <h2 class="section-title" style="font-size: 1.5rem;">Sectors Served</h2>
                         </div>
-                        <p style="font-size: 0.875rem; color: var(--slate-500); line-height: 1.8;">
-                            Fidelity &middot; Shell &middot; Apple &middot; Target &middot; DARPA &middot; Grainger &middot; Zebra &middot; Blue Cross Blue Shield &middot; Pizza Hut &middot; Royal Caribbean &middot; Cabela's &middot; USDA
-                        </p>
+                        <div class="industries-row reveal">
+                            <span class="industry-tag"><i class="fas fa-chart-line"></i> Financial Services</span>
+                            <span class="industry-tag"><i class="fas fa-bolt"></i> Energy &amp; Utilities</span>
+                            <span class="industry-tag"><i class="fas fa-microchip"></i> Technology</span>
+                            <span class="industry-tag"><i class="fas fa-landmark"></i> Government</span>
+                            <span class="industry-tag"><i class="fas fa-shopping-cart"></i> Retail</span>
+                            <span class="industry-tag"><i class="fas fa-heartbeat"></i> Healthcare</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1194,8 +1240,8 @@
     <section class="contact-section" id="contact">
         <div class="container">
             <div class="contact-inner">
-                <h2>Let's build something together.</h2>
-                <p class="subtitle">I'm always interested in hearing about new opportunities and challenging engineering problems. See also my <a href="leadership.html" style="color: var(--blue-light); text-decoration: underline;">leadership profile</a> for executive and strategic engagements.</p>
+                <h2>Let's discuss your technical leadership needs.</h2>
+                <p class="subtitle">Whether you need a CTO, VP of Engineering, or technical advisor, I bring both strategic vision and hands-on engineering depth. See also my <a href="index.html" style="color: var(--green); text-decoration: underline;">engineering profile</a> for detailed technical implementations.</p>
 
                 <div class="contact-links">
                     <a href="mailto:mlong@magneton.io" class="contact-link">
